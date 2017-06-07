@@ -1,0 +1,381 @@
+* {
+ padding: 0;
+ margin: 0;
+ }
+
+body {
+	 overflow-x:hidden;
+	 font-family: 'Open Sans', sans-serif;
+	 text-rendering: optimizeLegibility !important;
+	 -webkit-font-smoothing: antialiased !important;
+	 font: #333333;
+ }
+
+li {
+	 list-style: none;
+	 display: inline-block
+}
+
+a {
+ text-decoration:none;
+ transition: all 500ms ease-in-out;
+ }
+
+a:hover, a:active {
+ text-decoration: none;
+ }
+
+h1, h2, h4 {
+ font-family: 'Lato', Arial, sans-serif;
+ text-decoration:uppercase;
+ font-weight:700;
+
+ }
+
+p {
+	 line-height:1.5em;
+ }
+
+.btn {
+	 transition: all 300ms ease-in-out;
+	 font-weight: 900 !important;
+	 text-transform: uppercase;
+	 font-family: 'Lato', 'Open Sans';
+ }
+
+ .form-control:focus {
+
+  border-color: #FF69B4;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+
+
+/***********NAVIGATION**********/
+
+.navbar {
+    
+    background-color: #222222 !important;
+    text-transform: uppercase;
+    font-family: 'Roboto', 'Open Sans';
+    font-weight: 700;
+}
+
+.navbar a {
+    
+    color: #FF69B4 !important;
+}
+
+
+.navbar a:hover {
+    
+    color: #ffffff !important;
+    background-color: #111111 !important;
+}
+
+.navbar-brand {
+	font-family: 'mr-bedfort', 'cursive';
+	font-size: 200%;
+	text-transform: none;
+}
+
+
+/*****************HEADER*******************/
+
+ .carousel-caption {
+ 	background: #ffffff;
+ 	opacity: 0.7;
+ 	border-radius: 5px;
+ 	border: #333333 1px solid;
+    margin: 10px;
+    margin-top: 25%;
+    padding: 10px;
+
+ }
+
+.carousel-caption p {
+	font-size: 1.5em;
+	color: #333;
+	font-family: 'Merriweather', 'Open Sans';
+	}
+
+.carousel-caption h2 {
+	color: #FF69B4
+}
+
+/****************************O NAS************************/
+
+.onas {
+	background-color: #ffffff;
+	padding: 50px 0 80px;
+	text-align: center;
+	color: #333;
+}
+
+.onas h2 {
+    
+    color: #333333;
+    margin: 20px 0 20px;
+}
+
+.onas p {
+    
+    padding-bottom: 40px;
+}
+
+.onas img {
+    
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 40px;
+    transition: all 500ms ease-in-out;
+    border: 2px solid #FF69B4;
+    margin: auto;
+}
+
+
+.onas li:hover img {
+    
+    opacity: 1;
+}
+
+
+/****************************ZESPÓŁ************************/
+
+.zespol {
+	background-color: #ffd3d9;
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.zespol b,
+.zespol h2,
+.zespol h4 {
+    
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+
+
+.zespol p {
+    
+    color: #737373;
+}
+
+.zespol img {
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+    border: 2px solid #FF69B4;
+    transition: all 500ms ease-in-out;
+    opacity: 0.8;
+}
+
+.zespol i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #FF69B4;
+    color: #fff;
+}
+
+.zespol a:hover i {
+    
+    opacity: 0.8;
+}
+
+.zespol img:hover {
+    
+    opacity: 1;
+}
+
+
+/*****************OFERTA*******************/
+
+.oferta {
+padding: 80px 0 80px;
+text-align: center;
+}
+
+.ofera h2,
+.oferta h4 {
+	color: #333333;
+	margin: 20px 0 20px;
+}
+
+.oferta p {
+	font-size: 14px;
+	padding: 40px;
+}
+
+.oferta i {
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding: 25px 20px;
+	border-radius: 50%;
+	background: #FF69B4;
+	color: #ffffff;
+}
+
+.oferta i:hover {
+    
+    opacity: 0.8;
+}
+
+@media(max-width: 768px) {
+	.oferta {
+		padding: 30px;
+	}
+}
+
+/****************************CENNIK************************/
+
+.cennik {
+	background-color: #ffd3d9;
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.cennik h2,
+.cennik p {
+    
+    color: #333;
+    margin: 20px 0 20px;
+}
+
+
+.cennik thead {
+	background-color: #ffd3d9;
+	border-radius: 5em;
+} 
+
+.cennik p {
+	padding-bottom: 40px;
+}
+
+.cennik .ceny {
+	padding: 30px;
+	border: 1px solid #CCC;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+@media(max-width: 768px) {
+	.cennik {
+		padding: 30px;
+	}
+
+}
+
+/****************************KONTAKT************************/
+
+.kontakt {
+	background-color: #ffffff;
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.kontakt p {
+    
+    padding-bottom: 80px;
+    color: #333333;
+}
+
+.kontakt h2 {
+    
+    color: #333333;
+    margin: 20px 0 20px;
+}
+
+.kontakt .input-group {
+    
+    margin-bottom: 25px;
+}
+
+.kontakt .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.kontakt span {
+    
+    border-radius: 0 !important;
+}
+
+.kontakt .btn {
+    
+    border-radius: 10px;
+    width: 100%;
+    font-size: 15px;
+    background-color: #FF69B4;
+    color: #fff;
+    border: 1px solid #DDDDDD;
+}
+
+.kontakt .btn:hover {
+    
+    opacity: 0.8;
+    border: 1px solid #DDDDDD;
+}
+
+.kontakt input, textarea, button {outline: none; }
+
+/****************************CENNIK************************/
+
+.footer {
+    
+    padding: 30px;
+    color: #333333;
+    background-color: #DDDDDD;
+}
+
+
+.footer .social {
+    
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #FF69B4;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.footer i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #FF69B4;
+    color: #fff;
+}
+
+.footer a:hover i {
+    
+    opacity: 0.8;
+}
+
+
+#up {
+	text-align: center;
+	  margin: 10px;
+
+}
+
+.autor {
+	margin: 20px;
+	padding: 10px;
+}
+
+.autor img {
+	width: 150px;
+}
